@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    position: relative;
+
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    margin-left: 8%;
+    width: 100%;
+    z-index: 5;
+    list-style: none;
+    font-size: 22px;
+    display: flex;
+    flex-direction: start;
+    color: white;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    margin-right: 19%;
+}
+
+.links ul {
+    list-style: none;
+
+    display: flex;
+
+    color: red;
+    gap: 100px;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: url("./Neon Skyline Under a Dark Sky.png");
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.hero a {
+    display: inline;
+    border-radius: 5px;
+    padding: 2px 2px;
+    border: 2px solid white;
+    background-color: blanchedalmond;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+
+.destination.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.destination.card {
+    flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% -10px);
+
+}
+
+.destination.card img {
+    width: 50%;
+    gap: 1px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.info {
+    flex: 1;
+    min-width: 0;
+}
